@@ -1,0 +1,184 @@
+body {
+  background: linear-gradient(#5d95ef,#ff63f4);
+}
+
+.contenedor {
+  width: 1000px;
+  margin: auto;
+  background-color: rgba(255,255,255,0.3);
+  border-radius: 25px;
+
+}
+
+h1 {
+  font-family: "indie flower";
+  font-size: 32px;
+  color: white;
+}
+
+.navegador {
+  display: flex;
+  padding: 0 10px 0;
+  background: black;
+  justify-content: space-around;
+  align-items: center;
+  height: 85px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.perfil {
+  background-image: url('../img/perfil01.jpg');
+  border-radius: 100%;
+  margin: 26px 0px 10px 30px;
+  width: 350px;
+  height: 350px;
+  transition: all 1s ease-out;
+}
+
+.perfil:hover {
+  transition: all 1s ease;
+  width: 350px;
+  height: 350px;
+  background-image: url('../img/perfil02.jpg');
+}
+
+.links li {
+  display: inline;
+  margin: 7px;
+}
+
+.menu {
+  text-decoration: none;
+  font-family: "indie flower";
+  color: white;
+  font-size: 25px;
+}
+
+.menu:hover {
+  text-decoration: none;
+  font-family: "indie flower";
+  color: rgb(0,205,255);
+  font-size: 25px;
+}
+
+header {
+  background-color: black;
+  height: 70px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.yo1 {
+  border-top: 1px dotted white;
+  padding-top: 10px;
+  font-family: "Comfortaa";
+  font-size: 17px;
+  margin: 15px 50px 5px 20px;
+}
+
+.yo2 {
+  font-size: 15px;
+  border-bottom: 1px dotted white;
+  padding-bottom: 10px;
+}
+
+.presentacion {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.descripcion {
+  font-family: "Comfortaa";
+  font-size: 17px;
+  margin: 15px 50px 5px 20px;
+}
+
+.cuadroh2 {
+  background-color: rgba(50, 50, 50, 0.5);
+}
+
+h2 {
+  font-family: "indie flower";
+  font-size: 25px;
+  color: black;
+  margin: 1px 0px 1px 20px;
+}
+
+.historia {
+  font-family: sans-serif;
+  font-size: 15px;
+  margin: 6px 20px 10px 20px;
+}
+
+.img {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 12px;
+}
+
+.images {
+  width: 220px;
+  transition: all 1s ease-out;
+  padding: 3px;
+  border: 3px solid black;
+}
+
+.images:hover {
+  transition: all 1s ease;
+  border: 3px solid red;
+}
+
+.chaplin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px;
+}
+
+iframe {
+  margin: 5px;
+  padding: 3px;
+  border: 3px solid black;
+}
+
+.historia2 {
+  width: 365px;
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 51px;
+  margin-top: 20px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.sitioenbehance {
+  text-decoration: none;
+  font-family: "indie flower";
+  color: white;
+  font-size: 25px;
+}
+
+.sitioenbehance:hover {
+  text-decoration: none;
+  font-family: "indie flower";
+  color: white;
+  font-size: 25px;
+  color: rgb(0,205,255);
+}
+
+.be {
+  height: 45px;
+  margin-top: 3px;
+  margin-left: 5px;
+}
