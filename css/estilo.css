@@ -7,13 +7,36 @@ body {
   margin: auto;
   background-color: rgba(255,255,255,0.3);
   border-radius: 25px;
-
 }
 
 h1 {
-  font-family: "indie flower";
+  font-family: "indie flower", sans-serif;
   font-size: 32px;
   color: white;
+  margin-bottom: 20px;
+}
+
+ul {
+  margin-top: 12px;
+}
+
+.links li {
+  display: inline;
+  margin: 7px;
+}
+
+.menu {
+  text-decoration: none;
+  font-family: "indie flower", sans-serif;
+  color: white;
+  font-size: 22px;
+}
+
+.menu:hover {
+  text-decoration: none;
+  font-family: "indie flower", sans-serif;
+  color: rgb(0,205,255);
+  font-size: 22px;
 }
 
 .navegador {
@@ -30,7 +53,7 @@ h1 {
 .perfil {
   background-image: url('../img/perfil01.jpg');
   border-radius: 100%;
-  margin: 26px 0px 10px 30px;
+  margin: 44px 0px 10px 30px;
   width: 350px;
   height: 350px;
   transition: all 1s ease-out;
@@ -43,25 +66,6 @@ h1 {
   background-image: url('../img/perfil02.jpg');
 }
 
-.links li {
-  display: inline;
-  margin: 7px;
-}
-
-.menu {
-  text-decoration: none;
-  font-family: "indie flower";
-  color: white;
-  font-size: 25px;
-}
-
-.menu:hover {
-  text-decoration: none;
-  font-family: "indie flower";
-  color: rgb(0,205,255);
-  font-size: 25px;
-}
-
 header {
   background-color: black;
   height: 70px;
@@ -72,7 +76,7 @@ header {
 .yo1 {
   border-top: 1px dotted white;
   padding-top: 10px;
-  font-family: "Comfortaa";
+  font-family: "Comfortaa", sans-serif;
   font-size: 17px;
   margin: 15px 50px 5px 20px;
 }
@@ -90,7 +94,7 @@ header {
 }
 
 .descripcion {
-  font-family: "Comfortaa";
+  font-family: "Comfortaa", sans-serif;
   font-size: 17px;
   margin: 15px 50px 5px 20px;
 }
@@ -100,13 +104,13 @@ header {
 }
 
 h2 {
-  font-family: "indie flower";
+  font-family: "indie flower", sans-serif;
   font-size: 25px;
   color: black;
-  margin: 1px 0px 1px 20px;
+  margin: 20px 0px 5px 20px;
 }
 
-.historia {
+.familia {
   font-family: sans-serif;
   font-size: 15px;
   margin: 6px 20px 10px 20px;
@@ -142,6 +146,7 @@ iframe {
   margin: 5px;
   padding: 3px;
   border: 3px solid black;
+  margin-left: 12px;
 }
 
 .historia2 {
@@ -152,33 +157,36 @@ iframe {
 }
 
 footer {
-  background-color: black;
   display: flex;
-  justify-content: center;
-  align-items: center;
   height: 51px;
+  align-items: center;
+  justify-content: center;
   margin-top: 20px;
+  background: black;
+  padding: 0 20px 0 20px;
+  letter-spacing: 3px;
+  color: #FFFFFF;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
-}
+  }
 
-.sitioenbehance {
-  text-decoration: none;
-  font-family: "indie flower";
-  color: white;
-  font-size: 25px;
-}
+  .social .fa {
+    font-size: 30px;
+    transition: all 0.5s ease-out;
+    margin: 0 5px 0 5px;
+    color: white;
+  }
 
-.sitioenbehance:hover {
-  text-decoration: none;
-  font-family: "indie flower";
-  color: white;
-  font-size: 25px;
-  color: rgb(0,205,255);
-}
+  .social .fa:hover {
+    transition: all 0.5s ease-in;
+    transform: scale(1.4);
+    color: rgb(0,205,255);
+  }
+
 
 .be {
-  height: 45px;
-  margin-top: 3px;
-  margin-left: 5px;
+  font-family: "indie flower", sans-serif;
+  font-size: 25px;
+  color: white;
+  margin: 1px 0px 1px 20px;
 }
