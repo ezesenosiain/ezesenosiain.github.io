@@ -1,13 +1,9 @@
-body {
-  background: linear-gradient(#5d95ef,#ff63f4);
-}
-
-.contenedor {
+/*.contenedor {
   width: 1000px;
   margin: auto;
   background-color: rgba(255,255,255,0.3);
   border-radius: 25px;
-}
+}*/
 
 h1 {
   font-family: "indie flower", sans-serif;
@@ -39,30 +35,31 @@ ul {
   font-size: 22px;
 }
 
-.navegador {
+.navbar {
   display: flex;
   padding: 0 10px 0;
   background: black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.presentacion {
+  display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 85px;
-  border-top-right-radius: 25px;
-  border-top-left-radius: 25px;
 }
 
 .perfil {
-  background-image: url('../img/perfil01.jpg');
-  border-radius: 100%;
-  margin: 44px 0px 10px 30px;
-  width: 350px;
-  height: 350px;
   transition: all 1s ease-out;
+  background-image: url('../img/perfil01.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
 }
 
 .perfil:hover {
   transition: all 1s ease;
-  width: 350px;
-  height: 350px;
   background-image: url('../img/perfil02.jpg');
 }
 
@@ -73,25 +70,6 @@ header {
   border-top-left-radius: 25px;
 }
 
-.yo1 {
-  border-top: 1px dotted white;
-  padding-top: 10px;
-  font-family: "Comfortaa", sans-serif;
-  font-size: 17px;
-  margin: 15px 50px 5px 20px;
-}
-
-.yo2 {
-  font-size: 15px;
-  border-bottom: 1px dotted white;
-  padding-bottom: 10px;
-}
-
-.presentacion {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
 
 .descripcion {
   font-family: "Comfortaa", sans-serif;
@@ -120,14 +98,16 @@ h2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 12px;
+  margin: auto;
 }
 
 .images {
-  width: 220px;
+  width: 300px;
   transition: all 1s ease-out;
   padding: 3px;
   border: 3px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .images:hover {
@@ -146,14 +126,15 @@ iframe {
   margin: 5px;
   padding: 3px;
   border: 3px solid black;
-  margin-left: 12px;
+  margin-left: 12px
 }
 
 .historia2 {
-  width: 365px;
+  margin-top: auto;
+  margin-bottom: auto;
   font-family: sans-serif;
   font-size: 15px;
-  margin-right: 20px;
+
 }
 
 footer {
@@ -166,8 +147,6 @@ footer {
   padding: 0 20px 0 20px;
   letter-spacing: 3px;
   color: #FFFFFF;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
   }
 
   .social .fa {
