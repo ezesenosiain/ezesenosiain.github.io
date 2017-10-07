@@ -1,14 +1,24 @@
-/*.contenedor {
-  width: 1000px;
-  margin: auto;
-  background-color: rgba(255,255,255,0.3);
-  border-radius: 25px;
-}*/
+.bodyindex {
+  background-image: url("../img/index1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bodylink {
+  background-color: rgb(50,50,50)
+}
 
 h1 {
-  font-family: "indie flower", sans-serif;
-  font-size: 32px;
+  font-family: "comfortaa", "Century Gothic", sans-serif;
+  font-size: 27px;
   color: white;
+  margin-bottom: 20px;
+}
+
+.dg {
+  font-family: "comfortaa", "Century Gothic", sans-serif;
+  font-size: 27px;
+  color: grey;
   margin-bottom: 20px;
 }
 
@@ -23,16 +33,16 @@ ul {
 
 .menu {
   text-decoration: none;
-  font-family: "indie flower", sans-serif;
+  font-family: "comfortaa", "Century Gothic", sans-serif;
   color: white;
-  font-size: 22px;
+  font-size: 17px;
 }
 
 .menu:hover {
   text-decoration: none;
-  font-family: "indie flower", sans-serif;
+  font-family: "comfortaa", "Century Gothic", sans-serif;
   color: rgb(0,205,255);
-  font-size: 22px;
+  font-size: 17px;
 }
 
 .navbar {
@@ -43,55 +53,12 @@ ul {
   align-items: center;
 }
 
-.presentacion {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.perfil {
-  transition: all 1s ease-out;
-  background-image: url('../img/perfil01.jpg');
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 550px;
-}
-
-.perfil:hover {
-  transition: all 1s ease;
-  background-image: url('../img/perfil02.jpg');
-}
-
-header {
-  background-color: black;
-  height: 70px;
-  border-top-right-radius: 25px;
-  border-top-left-radius: 25px;
-}
-
-
-.descripcion {
-  font-family: "Comfortaa", sans-serif;
-  font-size: 17px;
-  margin: 15px 50px 5px 20px;
-}
-
-.cuadroh2 {
-  background-color: rgba(50, 50, 50, 0.5);
-}
-
 h2 {
-  font-family: "indie flower", sans-serif;
-  font-size: 25px;
-  color: black;
-  margin: 20px 0px 5px 20px;
-}
-
-.familia {
-  font-family: sans-serif;
-  font-size: 15px;
-  margin: 6px 20px 10px 20px;
+  font-family: "comfortaa", "Century Gothic", sans-serif;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .img {
@@ -102,50 +69,74 @@ h2 {
 }
 
 .images {
-  width: 300px;
+  width: 350px;
+  box-shadow: 8px 8px 15px #909090;
+  margin: 20px;
+}
+
+.imageslink {
+  width: 350px;
   transition: all 1s ease-out;
-  padding: 3px;
-  border: 3px solid black;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  box-shadow: 8px 8px 15px #909090;
+  margin: 20px;
 }
 
-.images:hover {
-  transition: all 1s ease;
-  border: 3px solid red;
+.imageslink:hover {
+  width: 350px;
+  transition: all 1s ease-out;
+  box-shadow: 8px 8px 15px black;
+  margin: 20px;
 }
 
-.chaplin {
+.images2col {
+  width: 696px;
+  transition: all 1s ease-out;
+  box-shadow: 8px 8px 15px #909090;
+  margin: 20px;
+}
+
+.images3 {
+  height: 550px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-iframe {
-  margin: 5px;
-  padding: 3px;
-  border: 3px solid black;
-  margin-left: 12px
-}
-
-.historia2 {
-  margin-top: auto;
-  margin-bottom: auto;
-  font-family: sans-serif;
-  font-size: 15px;
-
+.descripcion {
+  font-family: "comfortaa", "Century Gothic", sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 15px;
 }
 
 footer {
   display: flex;
-  height: 51px;
+  height: 46px;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
   background: black;
   padding: 0 20px 0 20px;
-  letter-spacing: 3px;
+  color: #FFFFFF;
+  }
+
+.footersection {
+  display: flex;
+  height: 46px;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
+  background: black;
+  padding: 0 20px 0 20px;
   color: #FFFFFF;
   }
 
@@ -162,10 +153,23 @@ footer {
     color: rgb(0,205,255);
   }
 
+  .social2 .fa {
+    font-size: 20px;
+    transition: all 0.5s ease-out;
+    margin: 0 5px 0 5px;
+    color: grey;
+  }
 
-.be {
-  font-family: "indie flower", sans-serif;
-  font-size: 25px;
+.sitios {
+  font-family: "comfortaa", "Century Gothic", sans-serif;
+  font-size: 14px;
   color: white;
-  margin: 1px 0px 1px 20px;
+  margin: 1px 4px 1px 20px;
+}
+
+.sitios2 {
+  font-family: "comfortaa", "Century Gothic", sans-serif;
+  font-size: 14px;
+  color: grey;
+  margin: 1px 4px 1px 20px;
 }
