@@ -1,7 +1,7 @@
 .bodyindex {
   background-image: url("../img/index1.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .bodylink {
@@ -160,16 +160,25 @@ footer {
     color: grey;
   }
 
-.sitios {
-  font-family: "comfortaa", "Century Gothic", sans-serif;
-  font-size: 14px;
-  color: white;
-  margin: 1px 4px 1px 20px;
-}
-
 .sitios2 {
   font-family: "comfortaa", "Century Gothic", sans-serif;
   font-size: 14px;
   color: grey;
   margin: 1px 4px 1px 20px;
+}
+
+@media all and (max-width: 500px){
+	.images3 { width:90%; height: 90%;}
+  .images { width:90%; height: 90%;}
+  .imageslink { width:90%; height: 90%;}
+  .images2col { width:90%; height: 90%;}
+  .bodyindex { background-image: url("../img/index2.jpg"); background-size: 130%;}
+}
+
+@media all and (max-width: 1025px){
+  .images3 { width:90%; height: 90%;}
+  .images { width:90%; height: 90%;}
+  .imageslink { width:90%; height: 90%;}
+  .images2col { width:90%; height: 90%;}
+  .bodyindex { background-image: url("../img/index2.jpg");}
 }
