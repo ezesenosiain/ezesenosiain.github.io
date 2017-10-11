@@ -184,6 +184,7 @@ footer {
 	.images3 { width:90%; height: 90%;}
   .images { width:90%; height: 90%;}
   .imageslink { width:90%; height: 90%;}
+  .imageslink:hover { width:90%; height: 90%;}
   .images2col { width:90%; height: 90%;}
   .bodyindex { background-image: url("../img/index2.jpg"); width: 100%; height: 100vh;}
   body {padding: 0; margin: 0; overflow-x: hidden;}
@@ -193,6 +194,7 @@ footer {
   .images3 { width:90%; height: 90%;}
   .images { width:90%; height: 90%;}
   .imageslink { width:90%; height: 90%;}
+  .imageslink:hover { width:90%; height: 90%;}
   .images2col { width:90%; height: 90%;}
   .bodyindex { background-image: url("../img/index2.jpg"); width: 100%; height: 100vh;}
   body {padding: 0; margin: 0; overflow-x: hidden;}
